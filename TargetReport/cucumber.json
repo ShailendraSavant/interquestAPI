@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Would like to know the exact location of city bikes around the world in a given application",
+        "description": "",
+        "id": "verify-biker-location;would-like-to-know-the-exact-location-of-city-bikes-around-the-world-in-a-given-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5958764900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I made a get request for API",
+            "match": {
+              "location": "stepdefination.i_made_a_get_request_for_API()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 568300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to verify response latitude and longitude of Germany",
+            "match": {
+              "location": "stepdefination.i_want_to_verify_response_latitude_and_longitude_of_Germany()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify biker location",
+    "description": "",
+    "id": "verify-biker-location",
+    "keyword": "Feature",
+    "uri": "feature.feature"
+  }
+]
